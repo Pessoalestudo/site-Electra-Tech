@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/globals.css">
+    <a href="index.html"><script src="https://kit.fontawesome.com/928881f6fd.js" crossorigin="anonymous"></script></a>
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-contant">
+            <h1 class="logo">ELECTRA<sPan>TECH</sPan></h1>
+            <nav>
+                <ul>
+                    <a href="index.html"><li><i class="fa-solid fa-house"></i></a>
+                        <a href="index.html"><li>Home</li></i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="">Produtos</a>
+                        <div class="dropdown-menu">
+                            <a href="gamer.html">Game</a>
+                            <a href="celulares.html">Celulares</a>
+                            <a href="notbook.html">Notebook</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="">Sobre</a>
+                        <div class="dropdown-menu">
+                            <a href="misao.html">Missão, Visão e Valores</a>
+                            
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="nav-icon-containner">
+                <img src="img/cart.png" />
+                <img src="img/menu.png" class="menu-button"/>
+            </div>
+        </div>
+    </div>
+<main class="login-body">
+    <div class="conteiner2">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                placeholder="Enter Your Username">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                placeholder="Enter Your Password">
+                <div class="underline"></div>
+            </div>
+            <input type="submit" value="Continue">
+
+        </form>
+        <div class="footer-login">
+            <span>Or Connect with Social Midea</span>
+            <div class="social-fields">
+                <div class="social-fields twitter">
+                    <a href="#">
+                     <i class="fab fa-twitter"></i> 
+                     Sign in with Twitter  
+
+                    </a>
+                </div>
+                <div class="social-fields facebook">
+                    <a href="#">
+                     <i class="fab fa-facebook-f"></i> 
+                     Sign in with Facebook  
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+  </body>  
+  <footer class="gray-background">
+    <div class="page-inner-conetent footer-content">
+        <div class="download-options">
+            <p>Baixe nossa aplicação.</p>
+            <p>Baixe nosso aplicativo para Android e iOS.</p>
+            <div>
+                <img src="img/app-store.png" alt="">
+                <img src="img/play-store.png" alt="">
+            </div>
+        </div>
+        <div class="logo.footer">
+        <h1 class="logo">ELECTRA<sPan>TECH</sPan></h1>
+        <p>Compre online, economize tempo e dinheiro.</p>
+        </div>
+        <div class="links-footer">
+            <h3>Links úteis</h3>
+            <ul>
+                <li>Cupons</li>
+                <li>Blog Post</li>
+                <li>Cupons</li>
+                <li>Políticas</li>
+                <li>Torne-se afiliado</li>
+            </ul>
+        </div>
+    </div>
+    <hr class="page-inner-conetent">
+    <div class="page-inner-conetent copyright">
+        <p>Copyright 2023 - Electra Tech - Todos Direitos Reservados</p>
+    </div>
+
+</footer>
+
+<script>
+const navbar = document.querySelector(".navbar");
+const menuButton = document.querySelector(".menu-button");
+
+menuButton.addEventListener("click", () => {
+navbar.classList.toggle("show-menu");
+})
+
+</script>
+
+
+</body>
+</html>
